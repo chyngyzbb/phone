@@ -39,7 +39,7 @@ async function getPro() {
 
 setInterval(()=>{
     editPro()
-},100)
+},1000)
 
 console.log(date);
 getPro()
