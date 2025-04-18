@@ -37,9 +37,9 @@ async function getPro() {
 })
 }
 
-btn.addEventListener('click',()=>{
+setInterval(()=>{
     editPro()
-})
+},100)
 
 console.log(date);
 getPro()
